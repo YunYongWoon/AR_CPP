@@ -1,4 +1,5 @@
 #include <iostream>
+#include <time.h>
 using namespace std;
 
 int main() {
@@ -64,13 +65,61 @@ int main() {
 	else
 		cout << "if문 조건 false" << endl;
 
-	cin >> iNumber;
+	//cin >> iNumber;
 	if (10 <= iNumber && iNumber <= 20)
 		cout << "10~20 사이의 숫자이다" << endl;
 	else if (21 <= iNumber && iNumber <= 30)
 		cout << "21~30 사이의 숫자이다" << endl;
 	else
 		cout << "그 외의 숫자이다." << endl;
+
+	//난수 발생
+	srand((unsigned int)time(0));
+	cout << rand() << endl;
+	cout << rand() << endl;
+	//값이 랜덤이다
+	cout << (rand() % 100) << endl;
+	// 0~99까지의 숫자를 가져온다.
+	cout << (rand() % 100 + 100) << endl;
+	// 100~199까지의 숫자를 가져온다.
+
+	int iUpgrade;
+	cout << "업그레이드 기본 수치를 입력하세요: ";
+	cin >> iUpgrade;
+	
+
+	//강화 확률을 구한다.
+	float fPercent = rand() % 10000 / 100.f;
+	cout << "업그레이드 : " << iUpgrade << endl;
+	cout << "확률 : " << fPercent << endl;
+
+	// 강화 시도
+	if (iUpgrade <= 3)
+		cout << "강화성공" << endl;
+	if (4 <= iUpgrade&&iUpgrade <= 6) {
+		if (fPercent < 40.f)
+			cout << "강화성공" << endl;
+		else
+			cout << "강화실패" << endl;
+	}
+	if (7 <= iUpgrade&&iUpgrade <= 10) {
+		if (fPercent < 20.f)
+			cout << "강화성공" << endl;
+		else
+			cout << "강화실패" << endl;
+	}
+	if (11 <= iUpgrade&&iUpgrade <= 15) {
+		if (fPercent < 10.f)
+			cout << "강화성공" << endl;
+		else
+			cout << "강화실패" << endl;
+	}
+	if (16 <= iUpgrade&&iUpgrade <= 20) {
+		if (fPercent < 1.f)
+			cout << "강화성공" << endl;
+		else
+			cout << "강화실패" << endl;
+	}
 
 
 	return 0;
