@@ -14,5 +14,9 @@ int main() {
 	float fNumber = 3.14;
 	cout << fNumber << endl;
 
+	cout << "10 < 20 : " << (10 < 20) << endl;
+	cout << "10 > 20 : " << (10 > 20) << endl;
+	cout << "10 != 20 : " << (10 != 20) << endl;
+
 	return 0;
 }
