@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "While.cpp", "While.cpp\While.cpp.vcxproj", "{7667AE7B-2C7E-46B6-993D-6E6568B43632}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SwitchCase", "SwitchCase\SwitchCase.vcxproj", "{A14EA2DC-F1C9-4DE9-A3E7-DC8B2BD9BB3E}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Operator", "Operator\Operator.vcxproj", "{B7C4DF71-A9ED-4B7C-A0C2-6DE3CFC13C42}"
@@ -19,14 +17,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7667AE7B-2C7E-46B6-993D-6E6568B43632}.Debug|x64.ActiveCfg = Debug|x64
-		{7667AE7B-2C7E-46B6-993D-6E6568B43632}.Debug|x64.Build.0 = Debug|x64
-		{7667AE7B-2C7E-46B6-993D-6E6568B43632}.Debug|x86.ActiveCfg = Debug|Win32
-		{7667AE7B-2C7E-46B6-993D-6E6568B43632}.Debug|x86.Build.0 = Debug|Win32
-		{7667AE7B-2C7E-46B6-993D-6E6568B43632}.Release|x64.ActiveCfg = Release|x64
-		{7667AE7B-2C7E-46B6-993D-6E6568B43632}.Release|x64.Build.0 = Release|x64
-		{7667AE7B-2C7E-46B6-993D-6E6568B43632}.Release|x86.ActiveCfg = Release|Win32
-		{7667AE7B-2C7E-46B6-993D-6E6568B43632}.Release|x86.Build.0 = Release|Win32
 		{A14EA2DC-F1C9-4DE9-A3E7-DC8B2BD9BB3E}.Debug|x64.ActiveCfg = Debug|x64
 		{A14EA2DC-F1C9-4DE9-A3E7-DC8B2BD9BB3E}.Debug|x64.Build.0 = Debug|x64
 		{A14EA2DC-F1C9-4DE9-A3E7-DC8B2BD9BB3E}.Debug|x86.ActiveCfg = Debug|Win32
