@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TextRPG", "TextRPG\TextRPG.vcxproj", "{257F076A-B566-43B3-9330-496060D5DAAC}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pointer", "Pointer\Pointer.vcxproj", "{7A10A3F1-EB6D-4B12-87FC-E4685FCD85E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{257F076A-B566-43B3-9330-496060D5DAAC}.Debug|x64.ActiveCfg = Debug|x64
-		{257F076A-B566-43B3-9330-496060D5DAAC}.Debug|x64.Build.0 = Debug|x64
-		{257F076A-B566-43B3-9330-496060D5DAAC}.Debug|x86.ActiveCfg = Debug|Win32
-		{257F076A-B566-43B3-9330-496060D5DAAC}.Debug|x86.Build.0 = Debug|Win32
-		{257F076A-B566-43B3-9330-496060D5DAAC}.Release|x64.ActiveCfg = Release|x64
-		{257F076A-B566-43B3-9330-496060D5DAAC}.Release|x64.Build.0 = Release|x64
-		{257F076A-B566-43B3-9330-496060D5DAAC}.Release|x86.ActiveCfg = Release|Win32
-		{257F076A-B566-43B3-9330-496060D5DAAC}.Release|x86.Build.0 = Release|Win32
+		{7A10A3F1-EB6D-4B12-87FC-E4685FCD85E1}.Debug|x64.ActiveCfg = Debug|x64
+		{7A10A3F1-EB6D-4B12-87FC-E4685FCD85E1}.Debug|x64.Build.0 = Debug|x64
+		{7A10A3F1-EB6D-4B12-87FC-E4685FCD85E1}.Debug|x86.ActiveCfg = Debug|Win32
+		{7A10A3F1-EB6D-4B12-87FC-E4685FCD85E1}.Debug|x86.Build.0 = Debug|Win32
+		{7A10A3F1-EB6D-4B12-87FC-E4685FCD85E1}.Release|x64.ActiveCfg = Release|x64
+		{7A10A3F1-EB6D-4B12-87FC-E4685FCD85E1}.Release|x64.Build.0 = Release|x64
+		{7A10A3F1-EB6D-4B12-87FC-E4685FCD85E1}.Release|x86.ActiveCfg = Release|Win32
+		{7A10A3F1-EB6D-4B12-87FC-E4685FCD85E1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
