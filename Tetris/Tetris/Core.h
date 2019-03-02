@@ -21,8 +21,12 @@ public:
 		SAFE_DELETE(m_pInst);
 	}
 
+private:
+	HANDLE	m_hConsole;
+
 public:
 	bool Init();
 	void Run();
+	void SetConsolePos(int x, int y);
 };
 

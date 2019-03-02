@@ -1,9 +1,12 @@
 #pragma once
 #include <iostream>
 #include <time.h>
+#include <Windows.h>
+#include <list>
 
 using namespace std;
 #include "Macro.h"
+#include "Flag.h"
 
 #define STAGE_WIDTH 10
 #define STAGE_HEIGHT 15
@@ -76,7 +79,5 @@ typedef struct _tagPosition {
 		x = pos.x;
 		y = pos.y;
 	}
-
-
 
 }POSITION, *PPOSITION;
