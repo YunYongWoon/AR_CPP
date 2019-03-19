@@ -42,9 +42,10 @@ CShape * CShapeManager::CreateShape(SHAPE_TYPE eType) {
 
 	if (!pShape->Init()) {
 		SAFE_DELETE(pShape);
-		return NULL;
+		return nullptr;
 	}
-	return nullptr;
+
+	return pShape;
 }
 
 CShape * CShapeManager::CreateRandomShape() {
